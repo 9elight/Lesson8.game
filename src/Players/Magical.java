@@ -10,7 +10,7 @@ public class Magical extends Hero {
     @Override
     public void useSuperPower(Hero[] heroes, Boss boss) {
         for (int i = 0; i < heroes.length;i++){
-            if (heroes[i] != heroes[1]){
+            if (heroes[i] != heroes[2]){
             heroes[i].setDamage(15);
             heroes[i].setDamage(heroes[i].getDamage() + 10);}
         }

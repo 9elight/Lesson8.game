@@ -9,6 +9,7 @@ public class Warrior extends Hero {
 
     @Override
     public void useSuperPower(Hero[] heroes, Boss boss) {
-        heroes[0].setDamage(getDamage()+boss.getDamage());
+
+        heroes[1].setDamage(heroes[1].getDamage()+boss.getDamage());
     }
 }
